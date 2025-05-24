@@ -42,7 +42,7 @@ export default function Home() {
                   Train Like a Pro Evaluation
                 </h1>
                 <p className="text-xl text-gray-400 max-w-3xl mx-auto leading-relaxed">
-                  Take the 3-minute evaluation to find the exact gaps in your game—and get a custom action plan from former D-1 guard Jake Cioe.
+                  Take the 3-minute evaluation to find the exact gaps in your game—and get a custom action plan from former D-1 guard Jake Cioe and Skills Trainer Tyler Matthews.
                 </p>
                 <div className="space-y-6 pt-8">
                   <motion.button 
