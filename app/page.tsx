@@ -34,9 +34,9 @@ export default function Home() {
               <div className="flex flex-col lg:flex-row gap-12 items-center justify-center mb-8">
                 {/* JC Basketball */}
                 <div className="flex flex-col items-center">
-                  <div className="relative w-[280px] mx-auto rounded-[32px] overflow-hidden" style={{ border: '2px solid rgba(255,255,255,0.1)' }}>
+                  <div className="relative w-[280px] mx-auto rounded-[32px] overflow-hidden mb-4" style={{ border: '2px solid rgba(255,255,255,0.1)' }}>
                     <Image
-                      src="/form-wizard/public/jc-basketball-player.JPG"
+                      src="/jc-basketball-player.JPG"
                       alt="JC Basketball"
                       width={280}
                       height={350}
@@ -49,13 +49,14 @@ export default function Home() {
                       }}
                     />
                   </div>
+                  <h2 className="text-2xl font-bold text-white tracking-wider">Jake Cioe</h2>
                 </div>
 
                 {/* Tyler Basketball */}
                 <div className="flex flex-col items-center">
-                  <div className="relative w-[280px] mx-auto rounded-[32px] overflow-hidden" style={{ border: '2px solid rgba(255,255,255,0.1)' }}>
+                  <div className="relative w-[280px] mx-auto rounded-[32px] overflow-hidden mb-4" style={{ border: '2px solid rgba(255,255,255,0.1)' }}>
                     <Image
-                      src="/form-wizard/public/tyler-basketball.jpg"
+                      src="/tyler-basketball.jpg"
                       alt="Tyler Basketball"
                       width={280}
                       height={350}
@@ -68,13 +69,14 @@ export default function Home() {
                       }}
                     />
                   </div>
+                  <h2 className="text-2xl font-bold text-white tracking-wider">Tyler Matthews</h2>
                 </div>
               </div>
 
               {/* Centered description */}
               <div className="mb-12">
                 <p className="text-lg text-gray-300 max-w-2xl mx-auto leading-relaxed text-center">
-                  Take the 3-minute evaluation to find the exact gaps in your game—and get a custom action plan from Skills Trainer Tyler Matthews.
+                 Take the 3-minute evaluation to find the exact gaps in your game—and get a custom action plan from former D-1 guard Jake Cioe and Skills Trainer Tyler Matthews.
                 </p>
               </div>
 
