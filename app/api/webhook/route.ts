@@ -1,7 +1,7 @@
 import { NextResponse } from 'next/server';
 import { calculatePoints, getProfileTier } from '@/lib/calculateProfile';
 
-const WEBHOOK_URL = 'https://nomad77.app.n8n.cloud/webhook/3f22b916-24e0-432a-994c-350fcb49454b';
+const WEBHOOK_URL = 'https://nomad77.app.n8n.cloud/webhook/4e3d64cd-af0c-46de-8192-6fea89a1594a';
 
 export async function POST(request: Request) {
   try {
